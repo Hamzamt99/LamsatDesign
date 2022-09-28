@@ -165,7 +165,6 @@ jQuery(document).ready(function($) {
     section.parent('.accordion-section').toggleClass('active-accordion-section'); 
     section.closest('.accordion-section').siblings().find('.accordion-content').slideUp().end();
   });  
- 
 
   //Active item
 

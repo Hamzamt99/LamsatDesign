@@ -28,6 +28,27 @@ jQuery(document).ready(function($) {
         items: 6
       }
     },
+    
+    navText: ["&#xe605","&#xe606"],
+    autoplay: true,
+    autoplayTimeout: 5000
+  });
+  var owl = $('.carousel-blocks');
+  owl.owlCarousel({
+    nav: false,
+    dots: true,
+    items: 6,
+    responsive: {
+      0: {
+        items: 2
+      },
+      481: {
+        items: 3
+      },
+      769: {
+        items: 6
+      }
+    },
     loop: true,
     navText: ["&#xe605","&#xe606"],
     autoplay: true,
